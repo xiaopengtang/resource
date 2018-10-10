@@ -1,0 +1,15 @@
+{
+  "apps": [{
+    "name": "resource",
+    "script": "production.js",
+    "cwd": "/dev-center/xiaochengxv/resource",
+    "exec_mode": "fork",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}
