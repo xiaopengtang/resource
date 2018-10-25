@@ -34,7 +34,7 @@ code{  padding: 2px 4px;font-size: 90%;color: #c7254e;background-color: #f9f2f4;
         const form = new FormData($('#form')[0])
         // form.append('file', files)
         $.ajax({
-          url: '/upload',
+          url: '/upload?callback=http://127.0.0.1:8360/upload/demo',
           data: form,
           type: "post",
           dataType: "json",
